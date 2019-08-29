@@ -13,10 +13,10 @@ var digitSegments = [
 var countDownDate = new Date("Oct 21, 2019 17:00:00").getTime();
 
 document.addEventListener('DOMContentLoaded', function () {
-	var _days = document.querySelectorAll('.days'),
-		_hours = document.querySelectorAll('.hours'),
-		_minutes = document.querySelectorAll('.minutes'),
-		_seconds = document.querySelectorAll('.seconds');
+	var _days = document.querySelectorAll('.days');
+	var _hours = document.querySelectorAll('.hours');
+	var _minutes = document.querySelectorAll('.minutes');
+	var _seconds = document.querySelectorAll('.seconds');
 
 	setInterval(function () {
 		var now = new Date().getTime();
