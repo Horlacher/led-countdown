@@ -1,3 +1,5 @@
+var countDownDate = new Date("Oct 20, 2019 12:00:00").getTime();
+
 var digitSegments = [
 	[1, 2, 3, 4, 5, 6],
 	[2, 3],
@@ -10,7 +12,6 @@ var digitSegments = [
 	[1, 2, 3, 4, 5, 6, 7],
 	[1, 2, 7, 3, 6]
 ];
-var countDownDate = new Date("Oct 21, 2019 17:00:00").getTime();
 
 document.addEventListener('DOMContentLoaded', function () {
 	var _days = document.querySelectorAll('.days');
